@@ -1,0 +1,30 @@
+name: TrollPE
+main: TrollPE\Main
+version: 1.0
+author: Fabiansigala
+api: 3.0.0-ALPHA9
+load: POSTWORLD
+description: A plugin to troll PatarHD!
+
+commands:
+ TrollPE:
+  aliases: [troll]
+  description: TrollPE Main Command
+  permission: trollpe.command.main
+
+permissions:
+ trollpe.command.main:
+  default: true
+  description: Allow using main command
+ trollpe.command.help:
+  default: true
+  description: Help list
+ trollpe.command.version:
+  default: true
+  description: Allow getting version
+ trollpe.command.invisible:
+  default: op
+  description: Invisible player
+ trollpe.command.visible:
+  default: op
+  description: Re-seeable for players
